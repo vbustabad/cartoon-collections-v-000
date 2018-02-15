@@ -14,6 +14,7 @@ def long_planeteer_calls(calls)
   if calls.include? do |call|
     call.length > 4
     return true
+  end
   else
     return false
   end
@@ -22,9 +23,8 @@ end
 def find_the_cheese(snacks)
   if snacks.find do |snack|
     snack == cheese_types[0] || snack == cheese_types[1] || snack == cheese_types[2]
+  end
   else
     return nil
   end
 end
-
-cheese_types = ["cheddar", "gouda", "camembert"]
