@@ -16,6 +16,7 @@ def long_planeteer_calls(calls)
       return true
     else
       return false
+    end
   end
 end
 
@@ -26,5 +27,6 @@ cheese_types = ["cheddar", "gouda", "camembert"]
       return snack
     else
       return nil
+    end
   end
 end
